@@ -221,8 +221,8 @@ body {
 .lips {
   &-1 {
     z-index: 1;
-    height: 6.5vmin;
     width: 5vmin;
+    height: 6.5vmin;
     background: $lips-color;
     top: -44vmin;
     left: 25vmin;
@@ -445,9 +445,9 @@ body {
     width: 5.5vmin;
     height: 5.5vmin;
     background: $bg-color;
-    border-radius: 50%;
     top: -17vmin;
     left: 19.9vmin;
+    border-radius: 50%;
 
     &::before {
       width: 1vmin;
@@ -518,6 +518,14 @@ body {
       left: 4.2vmin;
       transform: rotate(4deg);
       border-radius: 0 100% 0 0;
+    }
+
+    &::after {
+      width: 12vmin;
+      height: 2vmin;
+      background: $bg-color;
+      top: 3.5vmin;
+      left: -5vmin;
     }
   }
 }
